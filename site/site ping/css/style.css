@@ -1,0 +1,326 @@
+/*footer*/
+div.footer{
+	background-color: black;
+	display: block;
+	width: 100%;
+	 }
+img#bouton{
+	float: right;
+
+
+}
+div.footer footer p{
+	text-align: center;
+	color: white;
+}
+
+
+/*style*/
+
+body{
+	margin: 0;
+	background:url("../images/fond.png");
+	background-attachment: fixed;
+}
+
+div.defilement{
+	background-color: rgba(255,255,255,.0);
+	display: block;
+	width: 95%;
+	text-align: left;
+
+}
+
+/*index*/
+
+div#content{
+	margin: 0%;
+	padding: 0%;
+	margin-top: 7%;
+	width: 100%;
+}
+
+div#content div{
+	display: inline-block;
+	padding: 0%;
+	margin: 0%;
+}
+
+/*indexgauche*/
+
+div#content div.leftbox{
+	width: 65%;
+	margin: 0%;
+	padding: 0%;
+}
+
+div#content div.leftbox div{
+	width: 100%;
+	background-color: white;
+	float: left;
+	margin-bottom: 20px;
+	border-style: solid;
+	border-width: 6px ;
+	border-color: #efefef;
+}
+
+p.titreleft{
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center;
+	color: #A1A1A1;
+	vertical-align: top;
+	background-color: #efefef;
+	font-size: x-large;
+	margin: 0;
+
+}
+
+/*indexdroite*/
+
+div#content div.rightbox{
+	width: 34.3%;
+	padding: 0%;
+	margin: 0%;
+	vertical-align: top;
+
+}
+div#content div.rightbox div{
+	width: 90%;
+	background-color: white;
+	float: right;
+	margin-bottom: 20px;
+	border-style: solid;
+	border-width: 6px ;
+	border-color: #aecbff;
+}
+
+
+div#content div.rightbox div.lien{
+	background-color: #aecbff;
+
+}
+div#content div.rightbox div.lien a{
+	background-color: #5c83fe;
+	float: right;
+	width: 100%;
+	height: 45px;
+	display: block;
+	text-decoration: none;
+	margin: 0%;
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+	line-height: 45px; 
+	color: white;
+}
+
+div#content div.rightbox div.lien a.N°1{
+	margin-bottom: 6px;
+}
+
+div#content div.rightbox div.lien a:hover{
+	background-color: #aecbff;
+}
+
+p.titreright{
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	vertical-align: top;
+	background-color: #aecbff;
+	font-size: 20px;
+	margin: 0;	
+}
+
+
+
+/* Menu nav */
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li{
+	float: left;
+	width: 20%;
+	height: 40px;
+	background-color:  #5c83fe;
+	
+	line-height: 40px;
+	text-align: center;
+}
+
+ul li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+ul li a:hover{
+	background-color: #2559fe;
+
+}
+
+ul li ul li{
+	display: none;
+	clear: left;
+	width: 100%;
+}
+ul li:hover ul li{
+	display: block;
+	opacity: .9;
+
+}
+
+/* contacter */
+/* contacter_localistation */
+div.adresse{
+	vertical-align: top;
+	margin: 0;
+	margin-top: 7%;
+	height: 262px;
+
+}
+div.adresse div#localisation{
+	padding: 0;
+	width: 48%;
+	height: 240px;
+	border-style: solid;
+	border-width: 15px;
+	border-color: #efefef;
+	vertical-align: top;
+	background-color: white;
+	background-image: url("../images/adresse.png");
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+
+div.adresse iframe.map{
+	float: right;
+	border-style: solid;
+	border-width: 10px ;
+	border-color: #5c83fe;
+}
+
+div.adresse div#localisation p.info{
+	line-height: 25px;
+	text-align: left;
+	margin-left: 10%;
+	vertical-align: top;
+	font-size: 20px;
+	
+}
+
+/*président*/
+div#président{
+	margin: 0;
+	padding: 0;
+	margin-top: 5%;	
+	border-style: solid;
+	border-width: 10px ;
+	border-color: #5c83fe;
+	background-color: #efefef;
+}
+
+p.titre{
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	vertical-align: top;
+	background-color: #5c83fe;
+	font-size: x-large;
+	margin: 0;
+}
+div#président div{	
+	margin: 1%;	
+	display: inline-block;
+	vertical-align: top;
+}
+
+div#président div{
+	vertical-align: top;
+
+}
+
+div#président div img.président{
+	height: 120px;
+	margin: 5px;
+
+}
+div#président div p.info{
+	display: block;
+	line-height: 25px;
+	font-size: 20px;
+	vertical-align: middle;
+	margin: 8px;
+	text-align: left;
+	background-color: white;
+}
+
+div#président div{
+	vertical-align: middle;
+}
+
+div#président div.mot{
+	border-style: solid;
+	border-width: 5px ;
+	border-color: #aecbff;
+	width: 30%;
+	padding: 3px;
+}
+
+div#président div.mot h3{
+	text-align: left;
+	vertical-align: top;
+	margin: 0;
+}
+
+
+/* contacter_membres bureau*/
+div#bureau{
+	margin: 0;
+	padding: 0;
+	margin-top: 5%;
+}
+
+div#bureau div.bureau{	
+	width: 29%;
+	background-color: #efefef;
+	border-style: solid;
+	border-width: 3px ;
+	border-color: #5c83fe;
+	margin: .5%;
+	padding: 5px;
+	padding-bottom: 0px;	
+	display: inline-block;
+	vertical-align: top;
+}
+
+div#bureau div.bureau div{
+	vertical-align: top;
+	height: 100px;
+
+}
+
+div#bureau div.bureau div img.profil{
+	height: 95px;
+	margin: 5px;
+
+}
+div#bureau div.bureau div h4{
+	display: block;
+	line-height: 25px;
+	vertical-align: middle;
+	margin: 8px;
+	background-color: white;
+}
+
+div#bureau div.bureau div.info{
+	vertical-align: middle;
+}
