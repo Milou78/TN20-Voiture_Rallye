@@ -6,5 +6,5 @@
 
 ## Difficultées rencontrées
 
-## Point d'analyse en TD
+## Point d'analyse en TD et simplification apportées
 
