@@ -4240,7 +4240,7 @@ a.close.disabled {
 .modal-body {
   position: relative;
   flex: 1 1 auto;
-  padding: 4rem 1rem; }
+  padding: 3rem 1rem; }
 
 .modal-footer {
   display: flex;
@@ -4492,7 +4492,8 @@ a.close.disabled {
 
 .carousel {
   position: relative;
-  width: 70%; }
+  width: 70%;
+ }
 
 .carousel.pointer-event {
   touch-action: pan-y; }
@@ -4510,7 +4511,9 @@ a.close.disabled {
   position: relative;
   display: none;
   float: left;
-  width: 100%;
+  left: 10%;
+  right: 10%;
+  width: 80%;
   margin-right: -100%;
   backface-visibility: hidden;
   transition: transform 0.6s ease-in-out; }
@@ -4563,7 +4566,7 @@ a.close.disabled {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15%;
+  width: 10%;
   color: #fff;
   text-align: center;
   opacity: 0.5;
@@ -4590,8 +4593,8 @@ a.close.disabled {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 50px;
+  height: 50px;
   background: no-repeat 50% / 100% 100%; }
 
 .carousel-control-prev-icon {
@@ -7339,6 +7342,17 @@ h3 {
   color: #fc766a;
   opacity: 1; }
 
+.portfolio-caption{
+  position: absolute;
+  right: 15%;
+  bottom: 0px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  color: #fff;
+  text-align: center; }
+
 .floating-label-form-group {
   position: relative;
   border-bottom: 1px solid #e9ecef; }
@@ -7382,8 +7396,8 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e9ecef; }
 
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
   background-color: #343148;
   color: #fff; }
 
