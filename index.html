@@ -291,7 +291,7 @@
                                         </div>
                                       </div>
                                     <p class="mb-5 text-justify">&emsp; Une des premières difficultés lors de la réalisation de notre modèle se trouvait sur la plaque amortisseur de la voiture.
-                                        En effet, il a été assez difficile de reconnaitre la forme de l'objet en question qui semblait faire une tangence sur une petite 
+                                        En effet, il a été assez difficile de reconnaitre la forme de l'objet en question qui semblait tangenter une petite 
                                         sphère qui servait à maintenir l'axe support de roue. Il n'y avait finalement pas de tangence sur la partie sphérique de la pièce qui a du être construite en surfacique.
                                     </p>                                    
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fermer la fenêtre</button>
@@ -329,9 +329,9 @@
                                             <img class="img-fluid rounded mb-2 w-100" src="assets/img/portfolio/roues2.png" alt="Partie surfacique roues">
                                           </div>
                                       </div>
-                                    <p class="mb-5 text-justify">&emsp; Un autre problème rencontré était sur les roues: nous souhaitions les faire en volumique mais certains points étaient assez contraignants.
-                                        Après avoir fait les rayons de la jante, nous avons essayé de joindre chaque rayon crées par répétition en volumique en utilisant un solide multi-section ou encore une opération booléenne. La roue était une des premières pièces que nous avions à réaliser.
-                                        Nous avons fini par la faire en surfacique, ce qui était notre première expérience en la matière. La répétition du modèle surfacique en courronne et la gestion du contact entre chaque rayon nous à posé problème à plusieurs reprises à cause d'erreur de plans de référence et de problème de connexité. 
+                                    <p class="mb-5 text-justify">&emsp; Nous avons rencontré un autre problème sur les roues: nous souhaitions les faire en volumique mais certains points étaient assez contraignants.
+                                        Après avoir fait les rayons de la jante, nous avons essayé de joindre chaque rayon crée par répétition en volumique en utilisant un solide multi-section ou encore une opération booléenne. La roue était une des premières pièces que nous avions à réaliser.
+                                        Nous avons fini par la faire en surfacique, ce qui était notre première expérience en la matière. La répétition du modèle surfacique en courronne et la gestion du contact entre chaque rayon nous a posé problème à plusieurs reprises à cause d'erreur de plans de référence et de problème de connexité. 
                                     </p>
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fermer la fenêtre</button>
                                 </div>
@@ -374,7 +374,7 @@
                                           </div>
                                       </div>
                                     <p class="mb-5 text-justify">&emsp; Pour la création de la carrosserie, nous sommes évidemment passés en surfacique. Nous avons pu rencontrer énormément de problèmes concernant la position et la simplification du modèle
-                                        mais nous avons surtout été confrontés à des problèmes de tangence et de résolution de courbe. Afin de simlpifier la réalisation de la carrosseries (qui nous a finalement pris 3 semaines), on nous a conseillé de ne pas utiliser de tangence et de faire tous les congés sur le modèle terminé de la carrosserie.
+                                        mais nous avons surtout été confrontés à des problèmes de tangence et de résolution de courbe. Afin de simplifier la réalisation de la carrosserie (qui nous a finalement pris 3 semaines), on nous a conseillé de ne pas utiliser de tangence et de faire tous les congés sur le modèle terminé de la carrosserie.
                                         En effet, mettre des tangences dans nos courbes de carrosserie créaient des modèles déformés ou non solvables. Nous avons donc veillé à ne pas utiliser de tangence sauf dans les parties sans erreur. 
                                         L'autre point est que la fonction congé d'arête en surfacique ne fonctionnait pas sur notre modèle pourtant connexe et non tangent. Nous avons eu à plusieurs reprises l'erreur "cette face ne possède pas d'arêtes vives" et ce, malgré l'aide de Mr. Rassineux et les modifications apportées. 
                                     </p>
@@ -420,7 +420,7 @@
                                                                                             </ul>
                                     <p class="mb-5 text-justify">
                                         Nous avons finalement abandonné l'épaississement de la carrosserie qui possédait des erreurs quelles que soient l'épaisseur et la direction choisies.
-                                        Pour le spoiler, nous avons utilisé les valeurs limites permises: 0,5mm vers l'exterieur et 0,2mm vers l'interieur. Modifier les tangences ou les courbures n'influençait pas ces paramètres.
+                                        Pour le spoiler, nous avons utilisé les valeurs limites permises: 0,5mm vers l'exterieur et 0,2mm vers l'interieur. Modifier les tangences ou les courbures n'influençaient pas ces paramètres.
                                     </p>
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fermer la fenêtre</button>
                                 </div>
@@ -504,8 +504,10 @@
                                       </div>
                                     <p class="mb-5 text-justify">&emsp;
                                         Le châssis de la voiture a aussi été difficile à modéliser. 
-                                        Il est en effet complexe avec un grand nombre de volumes différents devant s'imbriquer les uns dans les autres en respectant de nombreuses côtes pour pouvoir être assemblé avec les autres pièces. 
-                                        Nous avons donc décidé de réaliser dans un premier temps les "grands" volumes du châssis puis nous les avons repris plus dans le détail partie par partie pour obtenir la pièce finale.
+                                        Il est en effet complexe avec un grand nombre de volumes différents devant s'imbriquer les uns dans les autres. 
+                                        Le tout devait respecter de nombreuses côtes pour pouvoir être assemblé avec les autres pièces. 
+                                        Nous avons donc décidé de réaliser dans un premier temps les "grands" volume du châssis. 
+                                        Dans un second temps nous les avons retravaillés plus en détail, partie par partie, pour obtenir la pièce finale.
                                     </p>
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fermer la fenêtre</button>
                                 </div>
